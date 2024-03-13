@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projects</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+  </head>
+  <body>
+    <div class="top-projects">
+      <header class="projects-header">
+        <div class="logo">
+          <a href="index.html"><img src="images/Google.png" alt="" /></a>
+        </div>
+        <div class="searchBox">
+          <div class="icons">
+            <input type="search" class="search" placeholder="Education" />
+            <div class="icon">
+              <div>
+                <span class="material-symbols-outlined"> mic </span>
+              </div>
+              <div>
+                <span class="material-symbols-outlined">
+                  filter_center_focus
+                </span>
+              </div>
+              <div>
+                <span title="Search by voice" class="material-symbols-outlined">
+                  search
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+      <nav>
+        <ul class="top-right-social">
+          <li class="socials">
+            <div class="social-icon" onclick="toggleSocials()">
+              <span class="material-symbols-outlined"> apps </span>
+            </div>
+
+            <div class="sub-social-wrap" id="subSocial">
+              <div class="sub-social">
+                <ul class="social-container">
+                  <li>
+                    <a
+                      href="https://www.facebook.com/ynnos.aicras/"
+                      target="_blank"
+                      ><img src="images/facebook.png" alt="Facebook" /><span
+                        >Facebook</span
+                      ></a
+                    >
+                  </li>
+                  <li>
+                    <a href="https://github.com/SonyCookies" target="_blank"
+                      ><img src="images/github.png" alt="GitHub" /><span
+                        >GitHub</span
+                      ></a
+                    >
+                  </li>
+                  <li>
+                    <a href="https://www.instagram.com/sonjizy/" target="_blank"
+                      ><img src="images/instagram.png" alt="Instagram" /><span
+                        >Instagram</span
+                      ></a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="https://www.linkedin.com/in/sonny-sarcia-766288231/"
+                      target="_blank"
+                      ><img src="images/linkedin.png" alt="LinkedIn" /><span
+                        >LinkedIn</span
+                      ></a
+                    >
+                  </li>
+                  <li>
+                    <a href="https://twitter.com/YnosDev" target="_blank"
+                      ><img src="images/twitter.png" alt="Twitter" /><span
+                        >Twitter</span
+                      ></a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </li>
+
+          <li class="dropdown">
+            <div class="profile-button" onclick="toggleMenu()">
+              <img
+                src="https://scontent.fmnl30-1.fna.fbcdn.net/v/t39.30808-1/387785161_851250316789062_5268263326718121452_n.jpg?stp=dst-jpg_s320x320&_nc_cat=103&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeH68NtTML0x5LxcrqXUPHUhRdPQEa05-olF09ARrTn6iRYAAWnqifhAOgeH9A1qqA-WnLh_qMSrwnYjHb36wCZx&_nc_ohc=wlTJ0Cvsgl8AX87iDEm&_nc_ht=scontent.fmnl30-1.fna&oh=00_AfDqCpjBgjCs0m7hiw_kfnpbxxSGsZ0pwmsVDVARB6fS_g&oe=65EE3E42"
+                alt=""
+                style="border: none; display: none \9"
+                class="user-pic"
+              />
+            </div>
+            <div class="sub-menu-wrap" id="subMenu">
+              <div class="sub-menu">
+                <div class="top">
+                  <p></p>
+                  <p class="email-text">sonnypsarcia@gmail.com</p>
+                  <span
+                    class="material-symbols-outlined close"
+                    onclick="toggleMenu()"
+                  >
+                    close
+                  </span>
+                </div>
+                <div class="user-info">
+                  <img
+                    src="https://scontent.fmnl30-1.fna.fbcdn.net/v/t39.30808-1/387785161_851250316789062_5268263326718121452_n.jpg?stp=dst-jpg_s320x320&_nc_cat=103&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeH68NtTML0x5LxcrqXUPHUhRdPQEa05-olF09ARrTn6iRYAAWnqifhAOgeH9A1qqA-WnLh_qMSrwnYjHb36wCZx&_nc_ohc=wlTJ0Cvsgl8AX87iDEm&_nc_ht=scontent.fmnl30-1.fna&oh=00_AfDqCpjBgjCs0m7hiw_kfnpbxxSGsZ0pwmsVDVARB6fS_g&oe=65EE3E42"
+                    alt="profile"
+                  />
+                  <h2>Hi I'm Sonny</h2>
+                </div>
+                <div class="resume">
+                  <button onclick="downloadPDF()">Download Resume</button>
+                </div>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <div class="main-projects">
+      <ul class="project-list">
+        <li>
+          <div class="project-container">
+            <div class="project-title">
+              <a
+                href="https://www.facebook.com/people/Juan-Morente-Sr-Memorial-Pilot-School-FB-Page/100070459226035/"
+              >
+                <div class="project-link">
+                  <div>
+                    <img
+                      src="images/pilot.jpg"
+                      style="height: 30px; width: 30px"
+                    />
+                  </div>
+                  <div>
+                    <span>facebook.com</span>
+                    <div>
+                      <cite role="text">https://www.facebook.com > jmsmps</cite>
+                    </div>
+                  </div>
+                  <div>
+                    <span class="material-symbols-outlined"> more_vert </span>
+                  </div>
+                </div>
+                <div>
+                  <h3>Juan Morente Sr. Memorial Pilot School FB Page</h3>
+                </div>
+              </a>
+            </div>
+            <div class="project-description">
+              <span>
+                "Juan Morente Sr. Memorial Pilot School is located at Mabini St.
+                Zone IV,Pinamalayan, Oriental Mindoro"</span
+              >
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="project-container">
+            <div class="project-title">
+              <a href="https://www.facebook.com/nabuslotnhs301644/">
+                <div class="project-link">
+                  <div>
+                    <img
+                      src="images/nabuslot.jpg"
+                      style="height: 30px; width: 30px"
+                    />
+                  </div>
+                  <div>
+                    <span>facebook.com</span>
+                    <div>
+                      <cite role="text">https://www.facebook.com > nnhs</cite>
+                    </div>
+                  </div>
+                  <div>
+                    <span class="material-symbols-outlined"> more_vert </span>
+                  </div>
+                </div>
+                <div>
+                  <h3>DepEd Tayo - Nabuslot NHS</h3>
+                </div>
+              </a>
+            </div>
+            <div class="project-description">
+              <span>
+                "Nabuslot National High School is gearing up for the future; we
+                are now K TO 12 ready! Teaches G7 (Grade Seven; G7-10- JUNIOR
+                HIGH) through G12 (Grade Twelve; G11-12- SENIOR HIGH) in
+                Pinamalayan, Oriental Mindoro of Mimaropa (Region IV-B)."</span
+              >
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="project-container">
+            <div class="project-title">
+              <a href="https://minsu.edu.ph/">
+                <div class="project-link">
+                  <div>
+                    <img
+                      src="images/StudentManage/logo.ico"
+                      style="height: 30px; width: 30px"
+                    />
+                  </div>
+                  <div>
+                    <span>minsu.edu.ph</span>
+                    <div>
+                      <cite role="text">https://minsu.edu.ph</cite>
+                    </div>
+                  </div>
+                  <div>
+                    <span class="material-symbols-outlined"> more_vert </span>
+                  </div>
+                </div>
+                <div>
+                  <h3>Mindoro State University</h3>
+                </div>
+              </a>
+            </div>
+            <div class="project-description">
+              <span>
+                "The Mindoro State University (MinSU), formerly the Mindoro
+                State College of Agriculture and Technology (MinSCAT) was
+                originally the Mindoro National Agricultural School (MINAS)
+                ....."</span
+              >
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <script src="javascript.js"></script>
+  </body>
+</html>
